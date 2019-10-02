@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: `/TakenByTerryV1`,
   siteMetadata: {
     title: `Taken By Terry`,
     description: `Terry Manzi's official photography website`,

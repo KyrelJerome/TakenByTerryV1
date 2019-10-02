@@ -23,8 +23,13 @@
     "react-helmet": "^5.2.0",
     "react-icons": "^3.6.1"
   },
+  "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
   "devDependencies": {
+    "gh": "^2.0.9",
     "gh-pages": "^2.0.1",
+    "pages": "0.0.16",
     "prettier": "^1.17.0"
   },
   "keywords": [

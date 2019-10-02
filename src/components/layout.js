@@ -29,7 +29,7 @@ const Layout = ({ children, pageInfo }) => (
     `}
     render={data => (
       <>
-        <Container fluid className=" px-0 mx-0 py-0 main" >
+        <Container fluid className=" px-0 mx-0 py-0 main">
           <Row noGutters className="noGutters justify-content-center">
             <Col className="col-3">
               <Container className="mx-0 px-3 py-3 justify-text-left">
@@ -45,30 +45,27 @@ const Layout = ({ children, pageInfo }) => (
                   <h2 className="py-0 my-0">Ontario</h2>
                 </Container>
                 <Container className="px-0 my-4 mx-0">
-                          <Row noGutters className="noGutters justify-content-center">
-
+                  <Row noGutters className="noGutters justify-content-center">
                     <Col className="col-4 px-0 mx-0">
-                      <a href="https://www.instagram.com/takenbyterry/"> 
+                      <a href="https://www.instagram.com/takenbyterry/">
                         <h2>
                           <FaInstagram />
                         </h2>
                       </a>
-                      <a href="https://www.google.com"> 
+                      <a href="https://www.google.com">
                         <h2>
                           <FaYoutube />
                         </h2>
-                        </a>
-                      <a href="https://www.google.com" > 
+                      </a>
+                      <a href="https://www.google.com">
                         <h2>
                           <FaEnvelope />
                         </h2>
                       </a>
                     </Col>
-                    <Col className="col-8 px-0 mx-0">
-                    bob
-                    </Col>
-                    </Row>
-                  </Container>
+                    <Col className="col-8 px-0 mx-0">bob</Col>
+                  </Row>
+                </Container>
               </Container>
             </Col>
             <Col className="col-9">

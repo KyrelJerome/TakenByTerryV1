@@ -44,12 +44,11 @@ const Layout = ({ children, pageInfo }) => (
                   <h2 className="py-0 my-0">London,</h2>
                   <h2 className="py-0 my-0">Ontario</h2>
                 </Container>
-
                 <Container className="px-0 my-4 mx-0">
                           <Row noGutters className="noGutters justify-content-center">
 
                     <Col className="col-4 px-0 mx-0">
-                      <a href="https://www.google.com"> 
+                      <a href="https://www.instagram.com/takenbyterry/"> 
                         <h2>
                           <FaInstagram />
                         </h2>
@@ -58,7 +57,7 @@ const Layout = ({ children, pageInfo }) => (
                         <h2>
                           <FaYoutube />
                         </h2>
-                      </a>
+                        </a>
                       <a href="https://www.google.com" > 
                         <h2>
                           <FaEnvelope />

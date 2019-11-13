@@ -1,9 +1,6 @@
-# Gatsby React Bootstrap Starter
+# Terry Manzi Official Website
 
-A GatsbyJS starter that includes
-
+A gatsbyJS website created implemented through:
 - react-bootstrap
+- Typography
 - react-icons
-- sticky on scroll navbar
-- SASS compiler
-- basic layout

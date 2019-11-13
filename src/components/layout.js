@@ -11,7 +11,7 @@ import { FaInstagram } from "react-icons/fa"
 import { FaYoutube } from "react-icons/fa"
 import { FaEnvelope } from "react-icons/fa"
 import { Link } from "gatsby"
-
+import styles from "./layout.scss"
 import { Container, Row, Col } from "react-bootstrap"
 
 import Carousel from "./carousel"
@@ -63,7 +63,7 @@ const Layout = ({ children, pageInfo }) => (
                         </h2>
                       </a>
                     </Col>
-                    <Col className="col-8 px-0 mx-0">bob</Col>
+                    <Col className="col-8 px-0 mx-0 ${styles.Profile}">bob</Col>
                   </Row>
                 </Container>
               </Container>
